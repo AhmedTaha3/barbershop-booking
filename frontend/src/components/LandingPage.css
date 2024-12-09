@@ -1,0 +1,29 @@
+.landing-page {
+    background: linear-gradient(to bottom, #0033cc, #ff0000); /* Blue to Red Gradient */
+    color: white;
+    min-height: 100vh;
+  }
+  
+  h1, h3 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.25rem;
+  }
+  
+  .btn-primary {
+    background-color: #0033cc; /* Blue */
+    border-color: #0033cc;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff0000; /* Red */
+    border-color: #ff0000;
+  }
+  
+  iframe {
+    border-radius: 10px;
+  }
+  

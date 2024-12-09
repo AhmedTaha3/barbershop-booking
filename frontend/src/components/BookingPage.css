@@ -1,0 +1,33 @@
+.booking-page {
+  background: linear-gradient(to bottom, #0033cc, #ff0000); /* Blue to Red Gradient */
+  color: white;
+  min-height: 100vh;
+  margin-top: -40px;
+}
+
+.calendar-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+}
+
+.slot-button {
+  width: 120px;
+  font-weight: bold;
+}
+.slot-button {
+  cursor: pointer;
+}
+
+.slot-button.disabled-slot {
+  background-color: gray !important;
+  cursor: not-allowed;
+  border: none;
+}
+
+.slot-button:disabled {
+  opacity: 0.7;
+}
